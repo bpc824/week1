@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1201px;
+    margin: auto;
+
+}
+li{
+    list-style: none;
+}
+ 
+.header {
+    height: 813px;
+    width: 1920px;
+    background-image: url(第一层/background.png);
+    background-repeat: no-repeat;
+   object-fit: contain;
+
+}
+.nav{
+    float:left;
+    margin-left: 460px;
+}
+.nav ul li{ 
+    float: left;     
+}
+.nav ul li a{
+    display: block;
+    height: 98px;
+    line-height: 98px;
+    padding: 0 81px;
+    color: white;
+    text-decoration: none;
+
+}
+.logo{
+    float: left;
+    height: 100px;
+    width: 235px;
+}
+.c{
+    text-align: center;
+}
+.nav1{
+    margin-left: 460px;
+}
+.nav1 ul li{ 
+    float: left;     
+}
+.nav1 ul li a{
+    display: block;
+    height: 98px;
+    line-height: 98px;
+    padding: 0 81px;
+    color: white;
+    text-decoration: none;
+}
+.second{
+    height: 619px;
+    width: 1920px;
+    background-image: url(第二层/background.png);
+    
+    
+}
+.b1{
+    position: relative;
+    bottom: 97px;
+    left: 337px;
+    
+
+}
+.second1{
+    float: left;
+    width: 423px;
+    height: 506px;
+    margin-left: 427px;
+    margin-top: 73px;
+    top: 815px;
+    left:30px;
+  
+    
+
+   
+}
+.word1{
+    float : right;
+    background-image: url(第二层/second3.png);
+    width: 739px;
+    height: 525px;
+    margin-right:331px;
+    margin-top: 73px;
+    
+    
+    
+
+}
+.second2{
+      float: right;
+      margin-right: 1200px;
+      margin-bottom: 514px;
+      margin: auto;
+      position: relative;
+      bottom:190px;
+      right: 174px;
+     
+}
+.z{
+    text-align: center;
+    font-size: 24px;
+    font-family: 宋体;
+}
+.word1 p{
+    font-size: 24px;
+    font-family: 宋体;
+    margin-right: 60px;
+    margin-left: 60px;  
+}
+.third{
+    height: 851px;
+    width: 1920px;
+    background-image: url(第三层/third.png);
+}
+.h{
+   float:right;
+   margin: auto;
+   position: relative;
+   top:521px;
+   left: 130px;
+}
+.fourth{
+    height: 388px;
+    width: 1920px;
+    background-color: #dad8d9;
+}
+.f{
+    
+    position: relative;
+    left: 36px;
+}
+.five{
+    height: 353px;
+    width: 1920px;
+    background-color: #6f6d6d;
+}
+.five1{
+    float: left;
+    margin-left: 540px;
+    margin-top: 200px;
+    top: 815px;
+    left:40px;
+}
+.five2{
+    position: relative;
+    bottom: 50px;
+    left: 491px;
+}
+.six
+{
+    height: 916px;
+    width: 1920px;
+    background-image: url(第六层/images/background.png)
+}
+.six1{
+    position: relative;
+    top: 101px;
+    left: 150px;
+}
+.six2{
+    position: relative;
+    top: 132px;
+    left: 500px;
+}
+.seven{
+    height: 341px;
+    width: 1920px;
+    background-image: url(第七层/images/background.png);
+}
+.seven1{
+    position: relative;
+    top: 90px;
+    left: 150px;
+}
+.passage{
+    width: 477px;
+    height: 393px;
+    background-color: rgb(215, 212, 212);
+    float: right;
+    position: relative;
+    bottom: 330px;
+    right: 537px;
+}
+.passage p{
+    font-family: "宋体";
+    font-size: larger;
+    font-weight: 900;
+}
+.seven2{
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+.footer{
+    height: 312px;
+    width: 1920px;
+    background-color: aliceblue;
+}
+.footer1{
+    width: 1920px;
+    height: 1008px;
+    background-image: url(footer/images/background_03.png);
+}
+.over1{
+    width: 104px;
+    height: 63px;
+    position: relative;
+    top: 300px;
+    right: 300px;
+}
+.over1 p{
+    font-weight: 900;
+    font-family: "宋体";
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+
+}
+.over2 p{
+    font-size:116px;
+    font-family: "宋体";
+    position: relative;
+    left: 390px;
+    top: 150px;
+}
+.over3{
+    width: 104px;
+    height: 63px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.over3 p{
+    font-weight: 900;
+    font-family: "宋体";
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+
+
