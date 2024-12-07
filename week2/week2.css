@@ -1,0 +1,149 @@
+.box{    
+    background-image:url(background/background.png);
+    width: 640px;
+    height: 361px;
+    margin: 0 auto;
+   
+}
+.div{
+    box-sizing: border-box;
+}
+    
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 566px;
+    height: 34px;    
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    top: 27px;
+}
+.users{
+    flex: 1;
+}
+.users span{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 1px;
+    position: relative;
+    bottom: 4px;
+}
+.user{
+    background-image: url(head/images/images/head1.png) ;
+    width: 32px;
+    height: 33px;
+   
+}
+.second{
+    display:flex;
+    width: 505px;    
+    height: 31px;
+    background-image: url(second/images/全栈第二次作业_03.png);
+    margin: 0 auto;
+    margin-top: 44px;
+    justify-content: space-around;
+}
+.second span{
+   
+    font-size: 12px;
+    background-color: rgba(242, 245, 247, 0.807);
+    margin-top: 10px;
+    
+}
+.second1{
+    text-decoration: none;
+    color: #000000; 
+}
+.title span{
+    width: 117px;
+    height: 17px;
+    font-size: larger;
+    position: relative;
+    top: 30px;
+    left: 39px;
+}
+.button1{
+    width: 42px;
+    height: 25px;
+    position: relative;
+    top:30px;
+    left: 38px;
+}
+.button2{
+    width: 53px;
+    height: 23px;
+    position: relative;
+    top:53px;
+    right: 8px;
+}
+.state1{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(third/images/images/l.png);
+    width: 456px;
+    height: 44px;
+    position: relative;
+    top: 2px;
+    left: 95px;
+}
+.state2{
+    background-image: url(third/images/images/l.png);
+    width: 456px;
+    height: 44px;
+    position: relative;
+    top: 2px;
+    left: 95px;
+}
+.state3{
+    background-image: url(third/images/images/l.png);
+    width: 456px;
+    height: 44px;
+    position: relative;
+    top:2px;
+    left: 95px;
+}
+.h1{
+    width: 35px;
+    height: 31px;
+    position:relative;
+    left: 10px;
+    top:6px;
+}
+.h2{
+    width: 35px;
+    height: 26px;
+    position:relative;
+    left: 10px;
+    top:6px;
+}
+.h3{
+    width: 35px;
+    height: 30px;
+    position:relative;
+    left: 10px;
+    top:6px;
+}
+.s1{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s2{
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+.goto{
+    position: relative;
+    bottom: 19px;
+    left: 560px;
+}
+.fourth{
+    float: left;
+    margin-left: 20px;
+}
