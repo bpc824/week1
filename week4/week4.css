@@ -1,0 +1,210 @@
+.head {
+  height: 49px;
+  width:1920px ;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+}
+.top{
+  background-image: url(head/images/全栈第四次作业__03.png);
+
+  width: 203px;
+  height: 200px;
+  margin: auto;
+ position: relative;
+ bottom: 883px;
+ 
+  transition: all 1s;
+
+}
+.top:hover{
+  transform: scale(1.2);
+}
+.button1{
+  float: left;
+  transition: all 1s;
+}
+.button1:hover{
+  transform: scale(0.5);
+}
+
+.button2{
+  float: right;
+}
+.top1{
+  height: 883px;  
+  width: 1920px;
+  background-image: url(head1/全栈第四次作业_07.png);
+  position: relative;
+  top: 49px;
+}
+.button3{
+  float: left;
+ margin-top: 556px;
+ margin-left: 345px;
+}
+.second{
+  display: flex;
+  height: 602px;
+  width: 1920px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+ bottom: 151px;
+ justify-content: space-around;
+}
+.second span{
+  transition: all 1s;
+ position: relative;
+ bottom: 100px;
+  
+}
+.second span:hover{
+  transform: translate(0px, -30px);
+}
+.third{
+  width: 1920px;
+  height: 720px;
+  background-image: url(third/全栈第四次作业_18.png);
+}
+.third1{
+ margin: auto;
+ width: 951px;
+height: 541px;
+
+background-image: url(third/全栈第四次作业_20.png);
+position: relative;
+bottom: 83px;
+  transition: all 1s;
+ 
+
+}
+.third1:hover{
+  transform: translate(0px, -40px);
+}
+.button4{
+  position: relative;
+  left: 400px;
+  top: 400px;
+  
+  transition: all 1s;
+}
+.button4:hover{
+  transform:  scale(0.9);
+ 
+}
+.four{
+  width: 1920px;
+  height: 170px;
+  background-color: rgb(255, 255, 255);
+}
+.four1{
+position: relative;
+  top: 9000px;
+  left:832px;
+  width:10px;
+	height:10px;
+	background:rgb(80, 219, 5);
+	
+	animation-name: myfirst;
+    animation-duration: 5s;
+    animation-timing-function:ease;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+  
+}
+@keyframes myfirst
+{
+	0%   {background:rgb(7, 245, 3); left:832px; top:30px;}
+	25%  {background:rgb(12, 198, 5); left:1032px; top:30px; }
+	50%  {background:rgb(10, 208, 63); left:1032px; top:80px;}
+	75%  {background:rgb(13, 224, 13); left:832px; top:80px;}
+	100% {background:rgb(65, 220, 8); left:832px; top:20px;}
+}
+.four2 h1{
+  position: relative;
+  top: 10px;
+  left: 840px;
+
+}
+.four3{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.348);
+  width: 1920px;
+  height: 432px;
+  justify-content: space-around;
+}
+.four3 span{
+
+  transition: all 1s;
+
+}
+.four3 span:hover{
+  transform: translate(0px, -40px);
+}
+.five{
+  width: 1920px;
+  height: 260px;
+  background-color: rgb(255, 255, 255);
+}
+.button6{
+  margin: auto;
+  position: relative;
+  top: 100px;
+  left: 850px;
+  transition: all 1s;
+}
+.button6:hover{
+  transform: scale(1.2);
+}
+.six{
+  width: 1920px;
+  height: 1137px;
+  background-color: rgb(246, 246, 246);
+}
+.six1{
+  position: relative;
+  top: 73px;
+  left: 256px;
+}
+.six2{
+  position: relative;
+  bottom:950px ;
+  left: 957px;
+  width: 1408px;
+  height: 387px;
+  display: flex;
+  flex-direction: column;
+}
+
+.six2 span{
+ 
+  width: 237px; 
+  height: 387px;
+  transition: all 1s;
+}
+.six2 span:hover{
+  transform: translate(0px, -40px);
+}
+.seven{
+  position: relative;
+  bottom: 290px;
+ width: 1920px;
+ height: 458px;
+ background-image: url(images/全栈第四次作业_10.png);
+}
+.seven1{
+  position: relative;
+  top: 200px; 
+  left: 474px;
+}
+.seven2{
+  position: relative; 
+  top: 80px;
+  left: 700px;
+}
+.seven3{
+ position: relative;
+ bottom: 200px;
+ left: 300px;
+}
