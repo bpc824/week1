@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>子串出现次数</title>
+</head>
+
+<body>
+    <h1>子串出现次数</h1>
+    <label for="main">输入字符串:</label>
+    <input type="text" id="main" ><br><br>
+    <label for="other">输入子串:</label>
+    <input type="text" id="other" ><br><br>
+    <button onclick="count()">计算</button>
+    <p id="result"></p>
+
+    <script>
+        function count() {
+            const main = document.getElementById('main').value;
+            const other = document.getElementById('other').value;
+            const count = main.split(other).length - 1;
+            document.getElementById('result').innerText = `子串 "${other}" 在字符串中出现了 ${count} 次。`;
+        }
+    </script>
+</body>
+
+</html>
