@@ -1,0 +1,16 @@
+.warning {
+    color: rgb(255, 15, 15);
+    margin: 20px 0;
+    font-size: 25px;
+    color: rgb(255, 15, 15);
+}
+
+
+
+li {
+    margin: 5px 0;
+    color:rgb(26, 174, 215)
+}
+input{
+    color: rgb(23, 173, 227);
+}
